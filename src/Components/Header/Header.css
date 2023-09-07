@@ -1,0 +1,56 @@
+.header{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.header__logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    gap:20px;
+}
+.header li{
+    float: left;
+    cursor: pointer;
+}
+.header li:nth-child(1){
+    position: absolute;
+    left: 0;
+}
+.header a{
+    transition: 0.2s ease-in-out;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.header a:hover{
+    color: #111;
+}
+.cart_list{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}

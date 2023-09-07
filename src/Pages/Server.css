@@ -1,0 +1,10 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

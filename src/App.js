@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import CategoriesGrid from './Components/Categories/CategoriesGrid';
+
+/* Опис та функції компоненту App.js
+Компонент App.js - це головний компонент, який відповідає за відображення інтернет-магазину.
+Він відображає заголовок і викликає компонент Categories.js
+Блок <Categories> відповідає за відображення категорій товарів, який міститься в компоненті Categories.js
+Тег <h1> відповідає за відображення заголовку
+*/
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Інтернет-магазин</h1>
+      <CategoriesGrid/>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.goods-gallery{
+    /*grid with 2 cells in first row, 1 cell in second row, and repeat*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 10px auto 10px auto;
+    width: 80%;
+}
+
+
+
